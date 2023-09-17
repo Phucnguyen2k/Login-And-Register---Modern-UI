@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbCreateAcc = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,16 +43,16 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lbCreateAcc
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(84)))), ((int)(((byte)(174)))));
-            this.label1.Location = new System.Drawing.Point(28, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 27);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Get Starter";
+            this.lbCreateAcc.AutoSize = true;
+            this.lbCreateAcc.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCreateAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(84)))), ((int)(((byte)(174)))));
+            this.lbCreateAcc.Location = new System.Drawing.Point(28, 61);
+            this.lbCreateAcc.Name = "lbCreateAcc";
+            this.lbCreateAcc.Size = new System.Drawing.Size(207, 27);
+            this.lbCreateAcc.TabIndex = 7;
+            this.lbCreateAcc.Text = "Create Account";
             // 
             // label2
             // 
@@ -212,7 +212,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbCreateAcc);
             this.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -228,7 +228,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbCreateAcc;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label3;

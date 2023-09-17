@@ -60,12 +60,20 @@ namespace Login_And_Register___Modern_UI
                     cmd.ExecuteNonQuery();
                     conn.Close();
 
-                    MessageBox.Show(
-                        "Your Account has been Successlly Created", 
+                    DialogResult result = MessageBox.Show(
+                        "Your Account has been Successlly Created, Would you like to log in?", 
                         "Regiser Success",
-                        MessageBoxButtons.OK,
+                        MessageBoxButtons.OKCancel,
                         MessageBoxIcon.Information
                         );
+
+                    if (result == DialogResult.OK)
+                    {
+                        frmLogin login = new frmLogin();
+                        login.Show();
+                        this.Hide();
+                    }
+
                 }
             }
 
